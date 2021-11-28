@@ -121,6 +121,12 @@ header.top-page-header h3 {
   color:#444;
 }
 
+div.wrapper {
+  background-image: url('../img/bg.jpeg');
+  background-size: 100% auto;
+  height: 100vh;
+}
+
 div.conteneur-pere-noel {
   width: 469px;
   height: 782px;
