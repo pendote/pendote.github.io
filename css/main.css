@@ -124,6 +124,7 @@ header.top-page-header h3 {
 div.wrapper {
   background-image: url('../img/bg.jpeg');
   background-size: 100% auto;
+  background-repeat: repeat;
   height: 100vh;
 }
 
