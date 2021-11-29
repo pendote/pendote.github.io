@@ -57,7 +57,6 @@ const init = () => {
     // Source for this: https://stackoverflow.com/questions/1531093/how-do-i-get-the-current-date-in-javascript
     var today = new Date();
     var dd = String(today.getDate()).padStart(2, '0');
-    dd = 1;
     console.log("Current day : " + dd)
     var mm = String(today.getMonth() + 1).padStart(2, '0')
     console.log("Current month : " + mm)
