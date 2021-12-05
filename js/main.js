@@ -114,7 +114,7 @@ const init = () => {
             // Check if button is allowed
             console.log("i+1 = " + `${i+1}`)
             console.log("dd = " + dd)
-            if ( ( ((i+1) <= dd) && ( (i+1 != 14) || (dd != 14) ) ) || ( (dd == 14) && (i+1 == 14) && (hh >= 12) ) ) {
+            if ( ((i+1) <= dd) ) {
                 var link = links[dayNumber]
                 if (link) {
                     window.open(links[dayNumber], '_blank').focus()
